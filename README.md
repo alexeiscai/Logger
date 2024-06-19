@@ -1,4 +1,4 @@
-# Simple thread-safe C++20 logger.
+# Simple thread-safe logger.
 
 # Usage example:
 
