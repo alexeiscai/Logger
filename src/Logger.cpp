@@ -1,3 +1,17 @@
+/**
+ * @file Logger.cpp
+ *
+ * @brief This file contains the implementation of the Logger class methods.
+ * 
+ * The Logger class is a singleton that manages logging functionality with various
+ * log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL). It ensures thread safety
+ * using a mutex and supports logging messages to a file with timestamps and
+ * formatted output.
+ *
+ * @author A Scai
+ *
+ */
+
 #include <iostream>
 #include <chrono>
 #include <ctime>

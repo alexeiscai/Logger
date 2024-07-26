@@ -1,3 +1,16 @@
+/**
+ * @file test_Logger.cpp
+ *
+ * @brief This file contains unit tests for the Logger class using Google Test (gtest).
+ * It verifies the functionality of logging messages at different log levels, 
+ * ensures singleton behavior, checks timestamp formatting, and validates message content.
+ * The tests include setup and teardown procedures for the log file and provide utility functions
+ * for reading and processing log content.
+ *
+ * @author A Scai
+ *
+ */
+
 #include <gtest/gtest.h>
 #include <fstream>
 #include <filesystem>

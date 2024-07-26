@@ -1,3 +1,13 @@
+/**
+ * @file Logger.h
+ *
+ * @brief This file defines the Logger class, 
+ * which provides a singleton-based logging utility with different log levels.
+ *
+ * @author A Scai
+ *
+ */
+
 #ifndef LOGGER_H
 #define LOGGER_H
 
